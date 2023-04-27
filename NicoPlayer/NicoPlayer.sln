@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NicoPlayer", "NicoPlayer.csproj", "{8EF24C67-F2C2-455C-BBCC-8D7342986E76}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NicoPlayer", "NicoPlayer.csproj", "{D50AF84A-0DE4-468A-B342-5C8781F4DF2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8EF24C67-F2C2-455C-BBCC-8D7342986E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8EF24C67-F2C2-455C-BBCC-8D7342986E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8EF24C67-F2C2-455C-BBCC-8D7342986E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8EF24C67-F2C2-455C-BBCC-8D7342986E76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50AF84A-0DE4-468A-B342-5C8781F4DF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50AF84A-0DE4-468A-B342-5C8781F4DF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50AF84A-0DE4-468A-B342-5C8781F4DF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50AF84A-0DE4-468A-B342-5C8781F4DF2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2CF3A098-D01D-497E-AFB3-443C95F2B53E}
+		SolutionGuid = {07283BF1-73FC-4477-B2D5-8662472A75E8}
 	EndGlobalSection
 EndGlobal
