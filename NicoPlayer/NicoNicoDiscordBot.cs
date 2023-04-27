@@ -3,9 +3,12 @@ using Discord.Commands;
 using Discord.WebSocket;
 using Microsoft.Extensions.DependencyInjection;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using Discord.Net.Labs;
+using Discord.Commands;
+using Discord.Net;
 
 public class NicoNicoDiscordBot
 {
@@ -33,6 +36,8 @@ public class NicoNicoDiscordBot
     private IServiceProvider ConfigureServices()
     {
         return new ServiceCollection()
+            .AddSingleton(_client)
+            .AddSingleton(_commands)
             .BuildServiceProvider();
     }
 
@@ -60,7 +65,7 @@ public class NicoNicoDiscordBot
     private async Task HandleSlashCommandAsync(SocketSlashCommand arg)
     {
         // playnicoコマンドの処理
-        if (arg.Command.Name == "playnico")
+        if (arg.Data.Name == "playnico")
         {
             string videoId = arg.Data.Options.First().Value.ToString();
             var commandResult = await _commands.ExecuteAsync(arg, "PlayNicoAsync", new object[] { videoId }, _services);
